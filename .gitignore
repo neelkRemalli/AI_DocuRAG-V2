@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+docragv2.md
+# Local PDF documents; keep the empty input directory in the repository.
+documents/docs-pdf/*
+!documents/docs-pdf/.gitkeep
+build/
+dist/
+*.egg-info/
+data/faiss_index/
+.vscode/
+.idea/
+.DS_Store
